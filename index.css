@@ -1,0 +1,65 @@
+* {
+    background-color: rgb(158, 252, 220);
+    font-family: cursive;
+    display: auto;
+}
+
+p {
+    font-size: medium;
+    font-family: fantasy;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border: thick double black;
+    text-align: left;
+}
+
+#name, #email, #phone, #interests {
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+input, textarea {
+    background-color: white;
+}
+
+button {
+    background-color: rgb(255, 255, 255, 0.6660);
+}
+
+h1, h2, #form-title {
+    text-align: center;
+}
+
+img {
+    width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+caption {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.class, .size, .dishes, .days {
+    background-color: blueviolet;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: normal;
+}

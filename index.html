@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Let's learn to cook together!</title><!--You'll find this in the tab name of the web page, will mention in video-->
+</head>
+<body>
+    <!--This is the home page!-->
+    <img src="/Photos for Assignments/CookingClass.jpg" width="200" alt="Cooking Class Clipart">
+        <h1>Welcome to Val's cooking page!</h1> <!--Page Header-->
+        <h2>Cooking isn't just about the food, it is an experience to be had!</h2> <!--Still a header, this one isn't as important as the page name-->
+            <p>Cooking is more than making a meal, it is an art. To understand this type of art you have to break it down from before step 1. At the beginning of every program we will host a couple classes going over the basics you need to know. In addition, we will also host a couple classes that dive deeper into the ingredients and what purposes they serve. These classes will vary from program to program, but you'll walk out with the same general knowledge. Whether you're cooking for fun, for pay or to learn, you have come to the right place!</p>
+    <!--Below is a table that shows the class type, size, # of dishes taught and what days these classes typically happen on -->
+    <section>
+        <table id="class-table" border="2">
+            <caption>
+                Here is what to expect from each program:
+            </caption>
+            <thead> <!--Header for the table-->
+              <tr> <!--Table Row-->
+                <th id="class">Class Type</th> <!--Column-->
+                <th id="size">Class Size</th> <!--Column-->
+                <th id="dishes"># of dishes you will learn</th> <!--Column-->
+                <th id="days">Class Days</th> <!--Column-->
+              </tr>
+            </thead>
+            <tbody>
+              <tr> <!--Table Row-->
+                <td class="class"><a href="GeneralBaking.html">Baking Classes</a></td> <!--Row Title-->
+                <td class="size">10 - 15 Students</td> <!---Table Data-->
+                <td class="dishes">15-18 per program</td><!--Table Data-->
+                <td class="days">Sun/Mon/Wed</td> <!--Table Data-->
+              </tr>
+              <tr>
+                <td class="class"><a href="GeneralCooking.html">Cooking Classes</a></td><!--Row Title-->
+                <td class="size">15 - 22 Students</td> <!--Table Data-->
+                <td class="dishes">10-14 per program</td> <!--Table Data-->
+                <td class="days">Tues/Thurs/Fri/Sat</td> <!--Table Data-->
+              </tr>
+              <tr>
+                <td class="class">Private Classes (Max of 8)</td> <!--Row Title-->
+                <td class="size">1-8 students</td> <!--Table Data-->
+                <td class="dishes">1-2 per class</td> <!--Table Data-->
+                <td class="days">Sun/Mon/Thurs/Fri</td> <!--Table Data-->
+              </tr>
+            </tbody>
+          </table>
+          <!--This is a form asking for contact info & anything you'd like to learn-->
+          <h3 id="form-title">We'd love to hear from you!</h3>
+          <p>Please enter your info below so we can reach out and get you started with creating things in the kitchen!</p>
+          <form>
+            <div id="name"> <!--This basically creates a section/group of coding that belongs together-->
+              <label for="name">What's your name?</label>
+              <input type="text" name="name" required/>
+            </div>
+            
+            <div id="email">
+              <label for="email">What is your email address?</label>
+              <input type="text" name="email" required />
+            </div>
+
+            <div id="phone-number">
+              <label for="phone">What phone number can we call you on?</label>
+              <input type="text" name="phone" required>
+            </div>
+
+            <div id="class-interest">
+              <label for="interests">What are you most interested in? Or what would you like to see us make in a class?</label>
+            </div> <!--This keeps the label above the text box-->
+            <div>
+              <textarea name="interests" rows="4" required></textarea> <!--This is a text box!-->
+            </div>
+                
+            <button type="submit" >Submit!</button> 
+            </div>
+        </form>
+    </section>
+</body>
+</html>
